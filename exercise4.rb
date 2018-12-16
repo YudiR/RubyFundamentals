@@ -1,69 +1,69 @@
-# puts "enter your number"
-# ur_num = gets.chomp.to_i
+puts "enter your number"
+ur_num = gets.chomp.to_i
 
-#     if ur_num < 100
-#         puts "why not dream a little bit bigger?"
+    if ur_num < 100
+        puts "why not dream a little bit bigger?"
     
-#     else 
-#         puts "thats  a big number!"
+    else 
+        puts "thats  a big number!"
 
-#     end
+    end
     
 
-# my_age= 18
+my_age= 18
 
-# puts "whats your age?"
-# ur_age = gets.chomp.to_i
+puts "whats your age?"
+ur_age = gets.chomp.to_i
 
-# if my_age > ur_age
-#     puts "Well youngster, I am #{my_age - ur_age} years older than you"
+if my_age > ur_age
+    puts "Well youngster, I am #{my_age - ur_age} years older than you"
 
 
 
-# elsif ur_age >105
-#     puts "im not sure I belive you."
+elsif ur_age >105
+    puts "im not sure I belive you."
 
-# elsif ur_age > my_age
-#     puts "Elder, you are #{ur_age - my_age} older than me.\n Truly much respect."    
+elsif ur_age > my_age
+    puts "Elder, you are #{ur_age - my_age} older than me.\n Truly much respect."    
 
-# else 
-#     puts "Mazel Tov! we are the same age"
+else 
+    puts "Mazel Tov! we are the same age"
 
-# end
+end
 
-# my_name = "Yudi"
+my_name = "Yudi"
 
-# puts "whats your name?"
-# ur_name = gets.chomp
+puts "whats your name?"
+ur_name = gets.chomp
 
-# if ur_name == my_name 
-#     puts "we have the same name!!!"
-# end
+if ur_name == my_name 
+    puts "we have the same name!!!"
+end
 
-# puts "please tell me your name again ."
-# ur_name = gets.chomp
+puts "please tell me your name again ."
+ur_name = gets.chomp
 
-# num_ur_name = ur_name.count "a-z"
+num_ur_name = ur_name.count "a-z"
 
-# if num_ur_name < 10 
-#     puts "hello #{ur_name}"
-# elsif num_ur_name > 10
-#     puts "hi #{ur_name}"
-# else 
-#     puts "hey #{ur_name}."
-# end
+if num_ur_name < 10 
+    puts "hello #{ur_name}"
+elsif num_ur_name > 10
+    puts "hi #{ur_name}"
+else 
+    puts "hey #{ur_name}."
+end
 
-# secret_num = 770
-# puts "enter a number"
-# guess = gets.chomp.to_i
+secret_num = 770
+puts "enter a number"
+guess = gets.chomp.to_i
 
-# if guess == secret_num
-#     puts "You win. 770 is the secret number!"
-# elsif guess == secret_num -1 || +1 
-#     puts "So close"
-# else 
-#     puts "Try again. Better Luck Next Time"
-# end
+if guess == secret_num
+    puts "You win. 770 is the secret number!"
+elsif guess == secret_num -1 || +1 
+    puts "So close"
+else 
+    puts "Try again. Better Luck Next Time"
+end
 
 
 d = 0
